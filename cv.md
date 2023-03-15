@@ -19,4 +19,24 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 - JavaScript (Basic)
 - Git
 
+## Code example
+
+`
+function sum(a, b) {
+return a + b;
+}
+
+let result = sum(1, 2);
+alert( result );
+`
+
+## Experience
+
+## Education
+
+- University: Mitso
+
+## English
+
+B2
 
