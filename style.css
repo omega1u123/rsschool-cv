@@ -1,0 +1,135 @@
+* {
+    margin: 0;}
+html,
+body {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    font-size: 28px;
+    line-height: 36px;
+    font: inherit;
+    vertical-align: baseline;
+    /* outline: none; */
+    /* height: 100%; */
+}
+
+html {
+    height: 101%;
+}
+
+
+/* always display scrollbars  */
+
+
+/* html {
+    scroll-behavior: smooth; 
+  } */
+
+body {
+    width: 100%;
+    max-width: 1920px;
+    height: 1920px;
+    background-color: #f5e5d6;
+    /* font-size: 62.5%; */
+    font-size: 1em;
+    line-height: 2rem;
+    /* font-family: Light 500 'Poppins', sans-serif; */
+}
+
+header {
+    width: 100%;
+    max-width: 1920px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    max-width: 100%;
+    background-color: white;
+}
+
+.header-h1-1 {
+    font-size: 64px;
+    color: #3b221c;
+}
+.avatar {
+    background-color: #274b69;
+    width: 350px;
+    height: 200px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 205px;
+    min-width: 350px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.header-h1 {
+    font-size: 82px;
+    color: #3b221c;
+}
+.oval-photo {
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 7px #666;
+    float: right;
+    /* z-index: 100; */
+}
+
+.header-main-block {
+    width: 100%;
+    max-width: 1700px;
+    height: 600px;
+}
+/*  N A V */
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    position: relative;
+    /* left: 0; */
+    min-width: 500px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.header-main-block-border {
+    width: 100%;
+    max-width: 500px;
+    height: 500px;
+    background-color: #b19986;
+    border-radius: 550px;
+} 
+.nav-link {
+    padding: 0 10px;
+    line-height: 50px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.nav-item a {
+    color: #116062;
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: color 0.5s;
+    cursor: pointer;
+}
+
+.nav-item a:hover {
+    color: #274b69;
+}
