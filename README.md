@@ -1,1 +1,1 @@
-https://github.com/omega1u123/rsschool-cv
+https://github.com/omega1u123/rsschool-cv/cv
