@@ -268,3 +268,53 @@ pre {
     font-size: 24px;
     top: 0;
 }
+.copyright a {
+    color: #f6f0cf;
+    text-decoration: none;
+    transition: color 0.5s;
+    background-color: #274b69;
+}
+
+.copyright a:hover {
+    color: #ff7f50;
+}
+
+.copyright {
+    margin: 0;
+    width: 350px;
+    min-width: 350px;
+    position: relative;
+    background-color: #274b69;
+    color: #f6f0b7;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    flex-flow: column;
+}
+
+.header-main-block-title h2 {
+    font-size: 32px;
+    font-weight: 300;
+    color: #3b221c;}
+.github {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.header-main-block-title p {
+    font-size: 24px;
+    width: 100%;
+    max-width: 500px;
+    color: #856e61;}
+.rss {
+    /* background-image: url(/rs_school_js.svg); */
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 200px;
+    padding-bottom: 10px;
+    margin-right: 70px;
+}
