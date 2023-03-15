@@ -233,3 +233,38 @@ pre {
     color: #274b69;
     font-size: 1.3em;
 }
+
+/*  A S I D E */
+
+.aside-container {
+    /* max-height:  100%; */
+    float: left;
+    width: 350px;
+    padding-top: 100px;
+    padding-bottom: 1310px;
+    padding-left: 20px;
+    background-color: #274b69;
+    color: #f6f0b7;
+}
+
+.contact-item {
+    list-style-type: none;
+}
+
+.mail {
+    margin-bottom: -7px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    /* background-color: #f6f0b7; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 800px;
+    height: 200px;
+    font-size: 24px;
+    top: 0;
+}
